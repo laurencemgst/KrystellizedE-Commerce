@@ -1,0 +1,21 @@
+.data-container {
+  text-align: center;
+}
+
+.delivered-data, .undelivered-data {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 10px; /* Adjust margin as needed */
+  padding: 15px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.delivered-data {
+  background-color: #1E91D6;
+}
+
+.undelivered-data {
+  background-color: #D58000;
+}
